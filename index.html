@@ -6,25 +6,57 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Welcome to Simplemath</title>
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="contacts.html">
     </head>
     <body>
         <ul>
-            <li class="navbut"><a href="index.html">Home</a></li>
             <li class="navbut"><a href="about.html">About</a></li>
             <li class="navbut"><a href="contacts.html">Contacts</a></li>
+            <li class="navbut"><a href="index.html">Home</a></li>
         </ul>
         <h1>Welcome to Simplemath</h1>
         <p>
-            I'm here to provide you about math concept and problem solving skills
+            I'm here to provide you about mathematics concept and problem solving skills. This is my website for youtube channel Simplemath, which explains about junior high - high school mathematics concepts. My goal is to make 500+ videos so that students can access to mathematics easily and find the subject interesting. 
         </p>
+            <h4>Sample Video</h4>
+        <video width="500" height="300" controls>
+            <source src="media/zoom_2.mp4" type="video/mp4">
+            Your browser does not support this video format
+        </video>
+        <iframe class="youtube" width="560" height="315" src="https://www.youtube.com/embed/oVgTlZWCet4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <button class="button button1"><a href="https://www.youtube.com/channel/UCtpevbqll519ttTBLasIm7w">Visit my Youtube Channel</a></button>
         <div class="contact">
             <hr class="space">
             <p>CONTACT US</p>
             <hr class="space">
-        <video width="320" height="240" autoplay>
-                <source src="https://youtu.be/RQY6JGXt9NY" type="video/mp4">
-                Your browser does not support the video tag.
-        </video>
-       
+        </div>
+        <div class="container">
+
+            <form action="action_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              <label for="email">Email</label>
+              <input type="text" id="email" name="Email" placeholder="Your email...">
+
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="usa">USA</option>
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <Option value='korea'>South Korea</Option>
+              </select>
+          
+              <label for="subject">Comments/Questions/Suggestions</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
+          
     </body>
 </html> 
