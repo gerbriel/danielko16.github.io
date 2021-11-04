@@ -8,12 +8,51 @@
         <link rel="stylesheet" href="css/contacts.css">
     </head>
     <body>
-        <ul>
+        <ul id="navbar">
             <li class="navbut"><a href="about.html">About</a></li>
             <li class="navbut"><a href="contacts.html">Contacts</a></li>
             <li class="navbut"><a href="index.html">Home</a></li>
+                
         </ul>
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+              } else {
+                navbar.classList.remove("sticky");
+              }
+            }
+            </script>
         <h1>Contacts</h1>
         <h2>If you want to contact Simplemath about anything, here is the email and social media. You can ask questions or make suggestions.</h2>
+        <div class="container">
+
+            <form action="welcome.php" method="post">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              <label for="email">Email</label>
+              <input type="text" id="email" name="Email" placeholder="Your email...">
+
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="usa">USA</option>
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <Option value='korea'>South Korea</Option>
+              </select>
+          
+              <label for="subject">Comments/Questions/Suggestions</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
     </body>
 </html>

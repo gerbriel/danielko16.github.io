@@ -30,9 +30,7 @@ ul {
 .logo {
     height: 50px;
 }
-p {
-    color: rgb(7, 7, 7);
-}
+
 .space{
     border: black 1px solid;
     width: 100%;
@@ -63,7 +61,7 @@ p {
 }
 
 .button1:hover {
-  background-color: #4CAF50;
+  background-color: lightgreen;
   color: white;
 }
 input[type=text], select, textarea {
@@ -107,4 +105,50 @@ input[type=submit]:hover {
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
   padding-top: 60px;
+}
+
+
+body, html {
+  height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(photographer.jpg);
+filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+/* Set a specific height */
+height: 100%;
+
+/* Position and center the image to scale nicely on all screens */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  background-color: black; /* Fallback color */
+  background-color: rgba(0,0,0, 0.1); /* Black w/opacity/see-through */
+  font-weight: bold;
+  color: white;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.section1{
+  height: 150px;
+}
+h2{
+  padding: 70px;
 }
