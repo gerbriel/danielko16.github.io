@@ -9,6 +9,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333333;
+    z-index: 2;
   }
   
   li {
@@ -40,6 +41,8 @@ ul {
 .youtube{
   border: black 1px solid;
   display: block;
+  margin-left: 19vw;
+
 }
 .button {
   border: none;
@@ -186,6 +189,37 @@ position: relative;
   font-family: 'Halant';font-size: 20px;
 
 }
+.buttondisplay{
+  display: block;
+  margin-left: 42vw;
 
-
+}
+video{
+  margin-left: 20vw;
+}
+.media{
+  height:4em;
+  width:4em;
+  border-radius:40em;
+  position:relative;
+  bottom:3em;
+  left:83em;
+  display:inline-block;
+}
+.logofooter{
+  height: 9em;
+  width: 176px;
+  bottom: 1em;
+  left: 5em;
+}
+.full{
+  width:100%;
+  margin:0;
+}
+footer{
+  height:9em;
+  background-image:linear-gradient(to right,#c2c2c2, #636262);
+  position:relative;
+ 
+}
 
