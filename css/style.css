@@ -1,6 +1,8 @@
 body {
     
     background:white;
+    
+ overflow-x: hidden;
 
 }
 ul {
@@ -40,8 +42,9 @@ ul {
 }
 .youtube{
   border: black 1px solid;
-  display: block;
-  margin-left: 19vw;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 .button {
@@ -55,6 +58,7 @@ ul {
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
+ 
 }
 
 .button1 {
@@ -130,6 +134,7 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 position: relative;
+width: 100%;
 }
 
 /* Place text in the middle of the image */
@@ -191,11 +196,17 @@ position: relative;
 }
 .buttondisplay{
   display: block;
-  margin-left: 50%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  
 
 }
 video{
-  margin-left: 20vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .media{
   height:4em;
@@ -222,4 +233,5 @@ footer{
   position:relative;
  
 }
+
 
