@@ -122,9 +122,10 @@ body, html {
 /* The hero image */
 .hero-image {
 /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(photographer.jpg);
+
 filter: blur(8px);
   -webkit-filter: blur(8px);
+  background-color: #13d7e6;
 
 /* Set a specific height */
 height: 100%;
@@ -213,9 +214,9 @@ video{
   width:4em;
   border-radius:40em;
   position:relative;
-  bottom:3em;
-  left:83em;
-  display:inline-block;
+  position: fixed;
+  bottom: -4px;
+  right: 10px;
 }
 .logofooter{
   height: 9em;

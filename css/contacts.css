@@ -67,4 +67,16 @@ ul {
   .sticky + .content {
     padding-top: 60px;
   }
-  
+  .space{
+    border: black 1px solid;
+    width: 100%;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.contact{
+  text-align: center;
+}
+.googleform{
+  font-family: 'Halant';font-size: 20px;
+
+}

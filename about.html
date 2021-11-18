@@ -55,7 +55,8 @@
             </div>
             <h2 class="message">Google Map</h2>
            
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13276.164832970331!2d-117.74946936078547!3d33.707882591438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcdcd25de4c205%3A0x1cc4ec3d7f0d1a13!2sStonegate%2C%20Irvine%2C%20CA%2092620!5e0!3m2!1sen!2sus!4v1636589770051!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106235.7512487871!2d-117.84342865633218!3d33.68650199291866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcdd0e689140e3%3A0xa77ab575604a9a39!2sIrvine%2C%20CA!5e0!3m2!1sen!2sus!4v1637194501407!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            
             <div class="about-section">
             <h1>Meet your tutor</h1>
             </div>
@@ -73,5 +74,70 @@
               </div>
             </div>
             </div>
+            <h1 class="description">Description of each Math Levels</h1>
+            <h3 class="description">Click on each box to see the description of each course and how the tutoring will help you. </h3>
+
+            <div class="row1">
+              <div class="column1" onclick="openTab('b1');" style="background:rgb(178, 240, 178);">1st - 6th Grade Math</div>
+              <div class="column1" onclick="openTab('b2');" style="background:rgb(80, 80, 219);">7th grade / Enhanced Math 7 & 8 </div>
+              <div class="column1" onclick="openTab('b3');" style="background:rgb(204, 150, 240);">8th grade</div>
+              <div class="column1" onclick="openTab('b4');" style="background:rgb(214, 101, 101);">Math 1 / Enhanced Math 1</div>
+              <div class="column1" onclick="openTab('b5');" style="background:rgb(231, 240, 202);">Math 2 / Enhanced Math 2</div>
+              <div class="column1" onclick="openTab('b6');" style="background:rgb(186, 236, 238);">Math 3 / Enhanced Math 3</div>
+              <div class="column1" onclick="openTab('b7');" style="background:rgb(228, 168, 240);">Calculus</div>
+
+            </div>
+            
+            <!-- The expanding grid (hidden by default) -->
+            <div id="b1" class="containerTab" style="display:none;background:rgb(178, 240, 178)">
+              <!-- If you want the ability to close the container, add a close button -->
+              <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+              <h2>1st - 6th Grade Math Description</h2>
+              <p>At this stage for math, the concepts are straightforward, and you might not need a tutor to understand the materials. However, if you need help with homework or prep for the test, you can request for the tutor for elementary school math.</p>
+            </div>
+            
+            <div id="b2" class="containerTab" style="display:none;background:rgb(80, 80, 219)">
+              <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+              <h2>7th grade / Enhanced Math 7 & 8</h2>
+              <p>From 7th grade, you will learn about negative numbers (addition, subtraction, multiplication, and division), fractions, decimals, rates, geometry, expressions, equations, inequalities, and proability (statistics). Some concepts might be new to you or may have developed from elementary school math. </p>
+            </div>
+            
+            <div id="b3" class="containerTab" style="display:none;background:rgb(204, 150, 240)">
+              <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+              <h2>8th grade</h2>
+              <p>In 8th grade, you will encounter with functions, system of equation, and geometric transformations.</p>
+            </div>
+            <div id="b4" class="containerTab" style="display:none;background:rgb(214, 101, 101)">
+              <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+              <h2>Math 1 / Enhanced Math 1</h2>
+              <p>Math 1 is high school freshman level. It is also known as algebra 1. In this course, you will learn about different algerba contents, including equations, graphs, functions, sequences, and irrational number. Enhanced Math 1 is fast paced version of math 1, so it will cover more concepts than regular math 1. Preparing for algebra 1 is really important because it is the foundation of future math classes.</p>
+            </div>
+             <div id="b5" class="containerTab" style="display:none;background:rgb(231, 240, 202)">
+              <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+              <h2>Math 2 / Enhanced Math 2</h2>
+              <p>In math 2 or enhanced math 2, you will learn about polynomials, complex number, log, trig, and complex equations. The pace in school is fast since you will learn different thing from day to day. Therefore, it is important to keep track of your learning.</p>
+            </div>
+            <div id="b6" class="containerTab" style="display:none;background:rgb(186, 236, 238)">
+              <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+              <h2>Math 3 / Enhanced Math 3</h2>
+              <p>In math 3 or enhanced math 3 or precalculus, you will learn about variety of math concepts. Inverse function, trigonometry, rational functions, vectors, limits, series, proability, matrix, and conic section. It is important to track of your learning since the pace of this course is faster than any other course that you have taken. Preparing the course with me will allow you to do well in school class and prepare you for the calculus.</p>
+            </div>
+            <div id="b7" class="containerTab" style="display:none;background:rgb(228, 168, 240)">
+              <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+              <h2>Calculus</h2>
+              <p>In calculus or AP calculus, You will learn about 3 things: derivative, integral, and infinite sequence/series. However, you will learn these in depth, so the concept might get difficult if you first encountered. Preparing this course with me will allow you to really understand the calculus, which is the foundation of all majors. Many school skips important sections in calculus, but in our tutoring session, we will go over those sections.</p>
+            </div>
+           <script>
+                function openTab(tabName) {
+              var i, x;
+               x = document.getElementsByClassName("containerTab");
+               for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+               }
+               document.getElementById(tabName).style.display = "block";
+        }
+           </script>
+            
+
           </body>
 </html>
