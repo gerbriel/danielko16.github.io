@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/contacts.css">
+        <link href='https://fonts.googleapis.com/css?family=Halant' rel='stylesheet'>
+
+    </head>
+    <body>
+        <ul id="navbar">
+            <li class="navbut"><a href="about.html">About</a></li>
+            <li class="navbut"><a href="contacts.html">Contacts</a></li>
+            <li class="navbut"><a href="index.html">Home</a></li>
+                
+        </ul>
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+              } else {
+                navbar.classList.remove("sticky");
+              }
+            }
+            </script>
+        <div class="contact">
+          <hr class="space">
+          <h1>CONTACT US</h1>
+          <h3>
+              ***Form below is currently under construction, so use this google form instead to fill out your information.***
+              
+          </h3>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSek_bQ6lhi7W9pevL7FOuYeFF8PuJAVTZqpLeB9NoJBWaZrfA/viewform" target="blank" class="googleform">Google Form</a>
+          <hr class="space">
+      </div>
+        <div class="container">
+
+            <form action="welcome.php" method="post">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              <label for="email">Email</label>
+              <input type="text" id="email" name="Email" placeholder="Your email...">
+
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="usa">USA</option>
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <Option value='korea'>South Korea</Option>
+              </select>
+          
+              <label for="subject">Comments/Questions/Suggestions</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+    </body>
+</html>
