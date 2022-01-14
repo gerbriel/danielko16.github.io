@@ -1,12 +1,14 @@
 body {
     background-color:white;
 }
-ul {
+header {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    
     overflow: hidden;
-    background-color: #333333;
+    background-color: #000000;
+    z-index: 2;
   }
   
   li {
@@ -17,11 +19,39 @@ ul {
     display: block;
     color: white;
     text-align: center;
-    padding: 16px;
+    padding: 25px;
     text-decoration: none;
     border-radius: 10px;
+    
+  }
+  .navbut{
+    font-size: 17px;
   }
   
   li a:hover {
-    background-color: #111111;
+    background-color: gray;
+  }
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+  .logoheader{
+    height: 4em;
+    width: 200px;
+    /* bottom: 1em; */
+    left: 20em;
+  }
+  body{
+      background-color:  #d7ebe1;
+  }
+  .intro{
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+
   }
