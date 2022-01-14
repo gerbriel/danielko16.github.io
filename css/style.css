@@ -11,7 +11,7 @@ header {
     padding: 0;
     
     overflow: hidden;
-    background-color: #333333;
+    background-color: #000000;
     z-index: 2;
   }
   
@@ -249,7 +249,7 @@ video{
 }
 footer{
   height:9em;
-  background-image:linear-gradient(to right,#c2c2c2, #636262);
+  background-color: black ;
   position:relative;
  
 }
@@ -328,4 +328,11 @@ footer{
 }
 .button2{
   border-radius: 40px;
+}
+
+.logoheader{
+  height: 4em;
+  width: 200px;
+  /* bottom: 1em; */
+  left: 20em;
 }
