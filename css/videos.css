@@ -1,6 +1,4 @@
-body {
-    background-color:white;
-}
+
 header {
     list-style-type: none;
     margin: 0;
@@ -55,3 +53,36 @@ header {
     font-family: 'Merriweather Sans', sans-serif;
 
   }
+  .youtube{
+    border: black 1px solid;
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  /* .youtube1{
+    float: left;
+
+  }
+  .youtube2{
+      float:center;
+  }
+  .youtube3{
+    right: 0;
+} */
+* {
+    box-sizing: border-box;
+  }
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
