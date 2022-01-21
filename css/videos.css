@@ -85,4 +85,8 @@ header {
     display: table;
     clear: both;
   }
+  body {
+    padding:0;
+    margin: 0;
+   }
   

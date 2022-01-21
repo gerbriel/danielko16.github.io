@@ -349,4 +349,7 @@ li a:hover {
   /* bottom: 1em; */
   left: 20em;
 }
-
+body {
+  padding:0;
+  margin: 0;
+ }
