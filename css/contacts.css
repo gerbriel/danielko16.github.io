@@ -147,7 +147,9 @@ body {
   /* border: 1px solid rgb(119, 190, 236); */
   /* padding: 50px; */
   /* margin: 20px; */
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
+  padding-left: 50px;
+  padding-right:50px;
   text-align: center;
   font-family: 'Merriweather Sans', sans-serif;
   /* background-color: #edf2f7; */
